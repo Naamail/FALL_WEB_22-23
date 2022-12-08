@@ -1,0 +1,19 @@
+* {
+    padding: 0.5vw;
+    margin: 0.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.active {
+    background-color: aqua;
+}
