@@ -1,0 +1,7 @@
+.active {
+    background-color: aquamarine;
+}
+
+li {
+    display: inline;
+}
