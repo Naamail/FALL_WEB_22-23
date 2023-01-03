@@ -1,0 +1,14 @@
+extends layouts 
+block content 
+    h1 #{v1}
+    table(class="results")
+        tr
+            th id
+            th name
+            th email
+
+        each n in pple
+            tr
+            td= n.id 
+            td= n.name
+            td= n.email 
