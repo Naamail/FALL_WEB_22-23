@@ -1,0 +1,14 @@
+extends layout 
+block content 
+    h1 #{v1}
+    p #{v2}
+    table 
+        tr 
+            th ID 
+            th Name 
+            th email        
+        each n in mysqlresArray 
+            tr 
+            td=n.id 
+            td=n.name 
+            td=n.email

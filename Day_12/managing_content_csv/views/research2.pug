@@ -1,0 +1,10 @@
+extends layout 
+block content 
+    h2 User Behavior Research 
+    ul
+    each val in var1
+        li(class='itemTitle')= val.Title
+        div 
+            span= val.AbstractShort
+            span= val.AbsractLong 
+    

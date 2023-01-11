@@ -15,7 +15,7 @@ app.set('view engine', 'pug');
 app.get("/", (req,res)=>{
     //res.send("hello pug");
     res.render('index',{
-        V1: 'What is good about PUG?',
+        V1: 'PUG intro',
         V2: 'Pug enables dynamic client side HTML rendering'
     });
 });
