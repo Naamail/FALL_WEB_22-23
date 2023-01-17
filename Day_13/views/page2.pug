@@ -1,0 +1,11 @@
+extends layout 
+block content 
+    h2 all entries by #{v1}
+    table 
+        tr 
+            th Name 
+            th Entry time-stamp        
+        each n in v2 
+            tr 
+            td=n.UserName 
+            td=n.TimeStamp 

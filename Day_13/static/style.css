@@ -1,0 +1,28 @@
+* {
+    padding: 0.5vw;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: inline;
+    padding-right: 2vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+form {
+    margin: auto;
+    border: 1px solid blue;
+    width: fit-content;
+    text-align: center;
+    line-height: 400%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
